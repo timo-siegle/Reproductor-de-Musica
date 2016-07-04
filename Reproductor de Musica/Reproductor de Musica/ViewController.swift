@@ -57,7 +57,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         availableSongs.append(song4)
         
         selectedSong = song1
-        setSong(selectedSong!, startPlaying: false)
+        setSong(selectedSong!)
     }
     
     func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
