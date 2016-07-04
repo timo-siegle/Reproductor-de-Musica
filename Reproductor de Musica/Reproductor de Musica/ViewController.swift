@@ -56,6 +56,13 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         }
         availableSongs.append(song4)
         
+        var song5 = Song(title: "See Through Walls", artist: "Anitek")
+        song5.nameMp3 = "song5"
+        if let imageSong5 = UIImage(named:"Song5") {
+            song5.image = imageSong5
+        }
+        availableSongs.append(song5)
+        
         selectedSong = song1
         setSong(selectedSong!)
     }
